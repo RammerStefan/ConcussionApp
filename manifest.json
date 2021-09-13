@@ -1,0 +1,16 @@
+{
+    "name": "Concussion Recognition Tool",
+    "short_name": "CRT",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#2A3443",
+    "description": "App zur Erkennung von Gehirnerschütterungen",
+    "theme_color": "#2A3443",
+    "icons": [
+      {
+        "src": "./img/Logo_OEsterreichischer_Skiverband.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
