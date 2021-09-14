@@ -1,6 +1,5 @@
 const cacheName = 'cdt-conf-v1';
 const staticAssets = [
-  '.',  
   'index.html',
   'app.js',
   'styles.css'
