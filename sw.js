@@ -2,7 +2,7 @@ const cacheName = 'cdt-conf-v1';
 const staticAssets = [
   'index.html',
   'app.js',
-  'styles.css'
+  'style.css'
 ];
 async function cacheFirst(req) {
     const cache = await caches.open(cacheName);
@@ -13,7 +13,7 @@ async function cacheFirst(req) {
 self.addEventListener('install', async event => {
     console.log('install event')
     const cache = await caches.open(cacheName);
-    await cache.add("index.html");
+    await cache.addAll(staticAssets)
 });
   
 self.addEventListener('fetch', async event => {
