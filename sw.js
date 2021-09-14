@@ -1,9 +1,9 @@
 const cacheName = 'cdt-conf-v1';
 const staticAssets = [
-  './',  
-  './index.html',
-  './app.js',
-  './styles.css'
+  '.',  
+  'index.html',
+  'app.js',
+  'styles.css'
 ];
 async function cacheFirst(req) {
     const cache = await caches.open(cacheName);
