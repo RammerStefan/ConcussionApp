@@ -7,3 +7,88 @@ h1 {
     font-size: calc(1.1rem + 1.5vw);
     margin-top: .5rem;
 }
+h2 {
+    text-transform: uppercase;
+
+}
+h2, button {
+    text-transform: uppercase;
+}
+h4 {
+    text-transform: uppercase;
+    color: #707070;
+    font-size: 14px;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+}
+ul {
+    padding-left: 1em;
+}
+.normal-text {
+    color: #707070;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+}
+.normal-accordion-item {
+    border: 1px solid #707070 !important;
+    color: #707070;
+}
+.normal-accordion-item .accordion-button {
+    background-color: white !important;
+    color:#707070 !important;
+}
+.red-accordion-item {
+    background-color: #FF0000;
+    color: white !important;
+}
+.red-accordion-item .accordion-button {
+    background-color: #FF0000;
+    color: white !important;
+}
+.red-accordion-item .accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+.white-box {
+    background-color: white;
+    color:#707070;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    padding: 10px;
+    font-size:14px;
+}
+.red-box {
+    background-color:#FF0000;
+    color:white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.footer {
+    background-color: #A2CEFF;
+    border:1px solid #689AFE;
+    border-radius: 20px;
+    padding-right:20px;
+    padding-left: 20px;
+    padding-bottom:20px;
+    margin-top: 20px;
+} 
+.footer-header {
+    text-align: center;
+    color:#707070;
+    margin-bottom: -10px;
+}
+.footer-body {
+
+}
+.logo-wrapper {
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.footer-link {
+    display: inline-block;
+    padding: 10px;
+}
