@@ -13,7 +13,7 @@ async function cacheFirst(req) {
 self.addEventListener('install', async event => {
     console.log('install event')
     const cache = await caches.open(cacheName);
-    await cache.addAll(staticAssets);
+    await cache.add("index.html");
 });
   
 self.addEventListener('fetch', async event => {
