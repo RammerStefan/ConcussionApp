@@ -49,6 +49,10 @@ ul {
     background-color: #FF0000 !important;
     color: white !important;
 }
+.normal-accordion-item .accordion-button:hover {
+    background-color: #FF0000 !important;
+    color: white !important;
+}
 .red-accordion-item {
     background-color: #FF0000;
     color: white !important;
