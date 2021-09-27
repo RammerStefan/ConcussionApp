@@ -41,6 +41,14 @@ ul {
     background-color: white !important;
     color:#707070 !important;
 }
+.normal-accordion-item .accordion-collapse {
+    background-color: #FF0000;
+    color:white;
+}
+.normal-accordion-item .accordion-button[aria-expanded="true"] {
+    background-color: #FF0000 !important;
+    color: white !important;
+}
 .red-accordion-item {
     background-color: #FF0000;
     color: white !important;
